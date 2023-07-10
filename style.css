@@ -91,3 +91,27 @@ ul li:before {
 .plan-title{
   text-align: center;
 }
+.appointment-container {
+   background: url("./images/watch.png"), linear-gradient(90deg, #e46735 0%, rgba(241, 91, 34, 0.5) 100%);
+  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  height: 300px;
+}
+
+
+
+.appointment-title{
+  padding-top: 28px;
+    padding-left: 160px;
+}
+.appointment-btn{
+  color: #F15B22;
+  background-color: white;
+  padding: 15px 25px;
+  margin-left: 160px;
+    margin-top: 15px;
+}
