@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* nav section styles  */
+.navbar {
+  background: url("./images/banner/banner1.png"),
+    linear-gradient(rgba(108, 102, 102, 0.5), rgba(108, 102, 102, 0.6));
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  width: 1204px;
+  height: 500px;
+  padding: 30px;
+}
+.nav-title {
+  color: #151414;
+  text-align: right;
+  font-size: 45px;
+  font-weight: 700;
+  margin-right: 150px;
+  padding-top: 100px;
+}
+.nav-description {
+  color: #444343;
+  font-size: 16px;
+  width: 375px;
+  margin-left: 680px;
+  font-weight: 400;
+  padding: 15px 0px;
+}
+.btn {
+  background-color: red;
+  color: white;
+  border: none;
+  margin-right: 150px;
+  padding: 10px 20px;
+  border-radius: 5px;
+background: #F15B22;
+color: white;
+font-size: 15px;
+}
+
