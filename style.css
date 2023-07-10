@@ -40,7 +40,9 @@
   color: white;
   font-size: 15px;
 }
+
 /* banner styling  */
+
 .banner-container {
   display: flex;
   justify-content: space-around;
@@ -74,7 +76,9 @@ ul li:before {
   content: "✓";
   color: green;
 }
+
 /* plan section styling  */
+
 .plan-section{
   width: 80%;
   margin: auto;
@@ -92,8 +96,9 @@ ul li:before {
   text-align: center;
 }
 .appointment-container {
-   background: url("./images/watch.png"), linear-gradient(90deg, #e46735 0%, rgba(241, 91, 34, 0.5) 100%);
-  ;
+  border-radius: 8px;
+  background: url("./images/watch.png"),linear-gradient(90deg, #F15B22 0%, rgba(234, 79, 18, 0) 100%);
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
@@ -102,11 +107,10 @@ ul li:before {
   height: 300px;
 }
 
-
-
 .appointment-title{
   padding-top: 28px;
     padding-left: 160px;
+    color: white;
 }
 .appointment-btn{
   color: #F15B22;
@@ -115,3 +119,61 @@ ul li:before {
   margin-left: 160px;
     margin-top: 15px;
 }
+
+/* footer styling starts from here  */
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #151414;
+  color: white;
+  padding: 30px;
+  margin-top: 50px;
+}
+.footer-title{
+  color: #F8F8F8;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-description{
+  color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+width: 400px;
+padding: 20px 0px
+}
+.icon{
+  width: 25px;
+  margin-right: 5px;
+}
+.footer-contact{
+  padding: 12px 0px;
+}
+.footer-form ,.footer-btn, h3,input{
+  display: block;
+  margin: 10px 0px;
+}
+.footer-form input{
+  background: #151414;
+  border: 1px solid white;
+  color: #FFF;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.footer-btn{
+  color: #F15B22;
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 3px;
+}
+
+
+               /* The END  */
